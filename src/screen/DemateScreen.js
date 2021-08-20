@@ -4,6 +4,7 @@ const DemateScreen = () => {
     return (
         <div className="pb-24">
             <div>
+            <img  src="demate.jpg"/>
                 <div className="bg-primary-500 text-white py-5 rounded-b-3xl ">
                     <h1 className="text-lg px-5">𝗪𝗵𝗮𝘁 𝗶𝘀 𝗺𝗲𝗮𝗻𝘁 𝗯𝘆 𝗮 𝗗𝗲𝗺𝗮𝘁 𝗮𝗰𝗰𝗼𝘂𝗻𝘁?</h1>
                 </div>

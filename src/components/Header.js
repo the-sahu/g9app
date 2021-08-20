@@ -7,23 +7,25 @@ const Header = () => {
         <div>
             <div className="px-3 flex flex-row justify-between py-2 shadow">
                 <div>
-                    <Link to="/">
+                    <Link to="/portfolio">
                     <img src="logo.png" className="h-12" alt=""/>
                     </Link>
                 </div>
-                <span className="flex relative ">
+                
                     <Link
-                        href="/contact"
-                        class="flex items-center  justify-center w-32 h-12  font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-primary-400 hover:bg-primary-700 focus:shadow-outline focus:outline-none"
+                        to="/login"
+                        class="flex items-center  justify-center px-2 h-10  font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-primary-400 hover:bg-primary-700 focus:shadow-outline focus:outline-none"
                         aria-label="Sign up"
                         title="Sign up"
                       >
 
-                        Live Market
-                        <span className="animate-ping absolute right-3 text-center top-3 inline-flex h-3 w-3 rounded-full bg-red-600 opacity-100"></span>
-                        <span className=" inline-flex rounded-full  text-center mb-4 ml-2 h-3 w-3 bg-red-700"></span>
+                        Logout 
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 ml-2 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" />
+                        </svg>
+                        
                       </Link>
-                        </span>
+                     
 
             </div>
         </div>
